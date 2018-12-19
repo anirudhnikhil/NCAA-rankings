@@ -1,3 +1,8 @@
+##This code involves using Colley's Bias Free Ranking Method to identify the effective number of wins in a given season. The function colley, created here, takes year as an input and lists the rankings of that year. 
+
+
+
+
 load("Finaldf.rdata")
 colley<-function(year){
   year_data<-Final_data[Final_data$season==year,]
