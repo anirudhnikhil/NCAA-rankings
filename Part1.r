@@ -84,4 +84,5 @@ for (i_year in 1960:2010){
       }
       Final_data<-rbind(Final_data_temp,Final_data)
       }
-      
+
+     save(Final,file="Finaldf.RData") 
