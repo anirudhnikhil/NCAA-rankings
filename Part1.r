@@ -1,3 +1,9 @@
+##This code scrapes yearly fixture wise data from James Howell's college Football Scores database (http://homepages.cae.wisc.edu/~dwilson/rsfc/history/howell/)
+##and converts it into a dataframe listing the number of wins and losses along with the opponents listed in list form.
+
+
+
+
 rm(list=ls())
 
 df_year<-data.frame()
